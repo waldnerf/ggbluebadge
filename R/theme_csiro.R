@@ -1,10 +1,10 @@
 #' Minimal Theme
 #'
 #' `theme_csiro` is a minimal yet flexible [ggplot2] theme designed to put
-#' the data front and center. It uses the Calibri font.
+#' the data front and center. It uses the Arial font.
 #'
 #' @md
-#' @param base_family Base font family (default: `Calibri`)
+#' @param base_family Base font family (default: `Arial`)
 #' @param base_size Base font size (default: `12` pt)
 #' @param base_color Base font color (default: `grey30`)
 #' @param line_size Base line size for grid, panel (default: `0.2`)
@@ -26,7 +26,7 @@
 #' @param ticks Whether or not to show axis tick marks (default: `FALSE`)
 #' @param ticks.x Whether or not to show X axis tick marks (default: same as `ticks`)
 #' @param ticks.y Whether or not to show Y axis tick marks (default: same as `ticks`)
-#' @param title.family Font family for plot title (default: `"Calibri"`)
+#' @param title.family Font family for plot title (default: `"Arial"`)
 #' @param title.face Font face for plot title (default: `bold`)
 #' @param title.color Color of plot title (default: `base_color`)
 #' @param subtitle.family Font family for plot subtitle (default: `base_family`)
