@@ -1,10 +1,8 @@
 ---
-title: "Introduction to ggbluebadge"
+title: "Diving into ggbluebadge"
 output:
   md_document:
     variant: markdown_github
-editor_options: 
-  chunk_output_type: console
 ---
 
 
@@ -14,7 +12,9 @@ editor_options:
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  fig.path = "man/figures/VIGNETTE-",
+  out.width = "100%"
 )
 ```
 
