@@ -1,5 +1,9 @@
 ---
-output: github_document
+title: "ggbluebadge"
+author: "Francois Waldner"
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -87,7 +91,7 @@ For color and fill scales, ggpomological provides scale_color_pomological() and 
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(ggcsiro)
+library(ggbluebadge)
 ## basic example code
 ```
 

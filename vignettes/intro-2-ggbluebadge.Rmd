@@ -1,13 +1,13 @@
 ---
 title: "Introduction to ggbluebadge"
-output:
-  md_document:
-    variant: markdown_github
-vignette: >
-  %\VignetteIndexEntry{Introduction to ggcsiro}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
