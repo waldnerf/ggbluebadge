@@ -1,0 +1,108 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ggbluebadge <img src="man/figures/logo.png" align="right" width="120" />
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of ggbluebadge is to ...
+
+## Installation
+
+ggbluebadge lives on GitHub for now, so you need to use [devtools](https://cran.r-project.org/web/packages/devtools/index.html) (or similar) to install it:
+
+``` r
+# install devtoos if you don't have it
+install.packages("devtools")
+
+devtools::install_github("waldnerf/ggbluebadge)
+```
+
+## Color Palette
+
+The colour palette used in ggbluebadge matches the new visual identity of the CSIRO.
+
+From this list, I chose just a few that I thought worked well together for colour and fill scales: main, blues, greys, primary, secondary, and data61.
+
+
+``` r
+ggbluebadge::show_my_palette("main")
+```
+
+
+``` r
+ggbluebadge::show_my_palette("blues")
+```
+
+``` r
+ggbluebadge::show_my_palette("greys")
+```
+
+``` r
+ggbluebadge::show_my_palette("primary")
+```
+
+``` r
+ggbluebadge::show_my_palette("secondary")
+```
+
+``` r
+ggbluebadge::show_my_palette("data61")
+```
+
+
+## Setup theme and scales
+There are four variants of the theme-generating function theme_ggbluebadge().
+
+theme_pomological() sets the plot theme to be representative of the paper and styling of the watercolors and includes a paper-colored background,
+
+theme_pomological_plain() has the same styling, just with a transparent (or white) background,
+
+theme_pomological_fancy() has the paper-colored background and defaults to a fancy handwritten font (Homemade Apple).
+
+For color and fill scales, ggpomological provides scale_color_pomological() and scale_fill_pomological().
+
+## To do list:
+1. check palettes
+2. create palettes for gradients
+3. modify scale_* functions
+4. check fonts
+5. add logo data61
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(ggcsiro)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

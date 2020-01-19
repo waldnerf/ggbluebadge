@@ -1,0 +1,19 @@
+Package: ggbluebadge
+Type: Package
+Title: CSIRO plot themes and scales for ggplot2
+Version: 0.1.0
+Author: Francois Waldner
+Maintainer: Francois Waldner <franz.waldner@csiro.au>
+Description: CSIRO plot themes and scales for ggplot2.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    testthat,
+    knitr,
+    rmarkdown,
+    magick,
+    scales
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr

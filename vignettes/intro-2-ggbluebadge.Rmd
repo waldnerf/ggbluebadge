@@ -1,0 +1,77 @@
+---
+title: "Introduction to ggcsiro"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to ggcsiro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r include = TRUE}
+library(ggplot2)
+library(magick)
+library(grid)
+library(ggbluebadge)
+
+ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+    geom_point() +
+    scale_color_csiro(palette="data61") +
+    labs(
+        x = "Weight (tons)",
+        y = "Fuel Efficiency (mpg)",
+        title = "Just Buy a Convertible",
+        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
+        caption = "Source: Motor Trend"
+    ) +
+    theme_csiro_data61()
+
+
+
+ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+    geom_point() +
+    scale_color_csiro(palette="main") +
+    labs(
+        x = "Weight (tons)",
+        y = "Fuel Efficiency (mpg)",
+        title = "Just Buy a Convertible",
+        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
+        caption = "Source: Motor Trend"
+    ) +
+  theme_floating_axes() +
+  add_floating_x(range(mtcars$wt)) + 
+  add_floating_y(range(mtcars$mpg))
+
+
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
+  geom_point(size = 4, alpha = .6) +
+  scale_color_gradient2(low = csiro_cols("midday blue"), mid = csiro_cols("gold"), high = csiro_cols("mint"),midpoint=6) +
+  theme_csiro()
+
+
+```
+
+Now, let's add the CSIRO logo to the figure.
+
+
+```{r include = TRUE}
+
+p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+    geom_point() +
+    scale_color_csiro(palette="data61") +
+    labs(
+        x = "Weight (tons)",
+        y = "Fuel Efficiency (mpg)",
+        title = "Just Buy a Convertible",
+        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
+        caption = "Source: Motor Trend"
+    ) +
+    theme_csiro("CorpidOffice")
+add_logo(p, logo='csiro')
+```
