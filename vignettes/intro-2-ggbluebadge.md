@@ -21,7 +21,7 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     theme_csiro_dark()
 ```
 
-<img src="man/figures/VIGNETTE-unnamed-chunk-2-1.png" width="100%" />
+![](C:/Users/wal716/AppData/Local/Temp/RtmpsRm1nD/preview-61b41a5c1cf6.dir/intro-2-ggbluebadge_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 ``` r
 
@@ -42,7 +42,7 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
   add_floating_y(range(mtcars$mpg))
 ```
 
-<img src="man/figures/VIGNETTE-unnamed-chunk-2-2.png" width="100%" />
+![](C:/Users/wal716/AppData/Local/Temp/RtmpsRm1nD/preview-61b41a5c1cf6.dir/intro-2-ggbluebadge_files/figure-markdown_github/unnamed-chunk-2-2.png)
 
 ``` r
 
@@ -53,7 +53,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
   theme_csiro()
 ```
 
-<img src="man/figures/VIGNETTE-unnamed-chunk-2-3.png" width="100%" />
+![](C:/Users/wal716/AppData/Local/Temp/RtmpsRm1nD/preview-61b41a5c1cf6.dir/intro-2-ggbluebadge_files/figure-markdown_github/unnamed-chunk-2-3.png)
 
 Now, let’s add the CSIRO logo to the figure.
 
@@ -73,4 +73,4 @@ p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
 add_logo(p, logo='csiro')
 ```
 
-<img src="man/figures/VIGNETTE-unnamed-chunk-3-1.png" width="100%" />
+![](C:/Users/wal716/AppData/Local/Temp/RtmpsRm1nD/preview-61b41a5c1cf6.dir/intro-2-ggbluebadge_files/figure-markdown_github/unnamed-chunk-3-1.png)
