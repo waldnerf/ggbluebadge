@@ -1,6 +1,8 @@
 ---
-title: "Introduction to ggcsiro"
-output: rmarkdown::html_vignette
+title: "Introduction to ggbluebadge"
+output:
+  md_document:
+    variant: markdown_github
 vignette: >
   %\VignetteIndexEntry{Introduction to ggcsiro}
   %\VignetteEngine{knitr::rmarkdown}
