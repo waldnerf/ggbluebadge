@@ -1,6 +1,8 @@
 ---
 title: "Introduction to ggbluebadge"
-output: github_document
+output:
+  md_document:
+    variant: markdown_github
 editor_options: 
   chunk_output_type: console
 ---
@@ -24,7 +26,7 @@ library(ggbluebadge)
 
 ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     geom_point() +
-    scale_color_csiro(palette="data61") +
+    scale_color_csiro(palette="main") +
     labs(
         x = "Weight (tons)",
         y = "Fuel Efficiency (mpg)",
