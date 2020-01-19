@@ -1,14 +1,14 @@
 #' \code{theme_csiro_data61} is a dark version.
 #' @rdname theme_csiro
 #' @export
-theme_csiro_data61 <- function(base_family = "Arial", base_size = 12, base_color = "white", line_size = 0.2,
+theme_csiro_data61 <- function(base_family = "sans", base_size = 12, base_color = "white", line_size = 0.2,
                             baseline = FALSE, baseline.x = baseline, baseline.y = baseline, baseline.size = line_size * 3,
                             background.color = "white",
                             panel.border = TRUE, panel.border.size = line_size * 2,
                             legend.box = FALSE,
                             grid = FALSE, grid.minor = grid, grid.x = grid, grid.y = grid, grid.minor.x = grid.minor, grid.minor.y = grid.minor, grid.color = "grey30",
                             ticks = TRUE, ticks.x = ticks, ticks.y = ticks,
-                            title.family = "Arial", title.face = "bold", title.color = csiro_cols("light mint"),
+                            title.family = "sans", title.face = "bold", title.color = csiro_cols("light mint"),
                             subtitle.family = base_family, subtitle.face = "italic", subtitle.color = base_color,
                             caption.family = base_family, caption.face = "italic", caption.color = "white",
                             axis.title.family = base_family, axis.title.face = "plain", axis.title.color = base_color,
