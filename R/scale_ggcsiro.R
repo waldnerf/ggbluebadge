@@ -2,8 +2,8 @@
 
 # CSIRO main ----
 csiro_colours <- c(
-  `midday blue`   = "#041b2b",
-  `midnight blue` = "#0ab0de",
+  `midday blue`   = "#0ab0de",
+  `midnight blue` = "#041b2b",
   `steel`         = "#6e6b6c",
   `mist`          = "#dcdcdc",
   `blueberry`     = "#2a3c9a",

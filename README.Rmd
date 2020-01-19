@@ -47,10 +47,6 @@ ggbluebadge::show_my_palette("main")
 ```
 
 
-#``` {r blues}
-#ggbluebadge::show_my_palette("blues")
-#```
-
 ``` {r greys}
 ggbluebadge::show_my_palette("greys")
 ```

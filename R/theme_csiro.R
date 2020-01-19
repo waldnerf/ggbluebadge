@@ -1,10 +1,10 @@
 #' Minimal Theme
 #'
 #' `theme_csiro` is a minimal yet flexible [ggplot2] theme designed to put
-#' the data front and center. It uses the Arial font.
+#' the data front and center. It uses the sans font.
 #'
 #' @md
-#' @param base_family Base font family (default: `Arial`)
+#' @param base_family Base font family (default: `sans`)
 #' @param base_size Base font size (default: `12` pt)
 #' @param base_color Base font color (default: `grey30`)
 #' @param line_size Base line size for grid, panel (default: `0.2`)
@@ -26,7 +26,7 @@
 #' @param ticks Whether or not to show axis tick marks (default: `FALSE`)
 #' @param ticks.x Whether or not to show X axis tick marks (default: same as `ticks`)
 #' @param ticks.y Whether or not to show Y axis tick marks (default: same as `ticks`)
-#' @param title.family Font family for plot title (default: `"Arial"`)
+#' @param title.family Font family for plot title (default: `"sans"`)
 #' @param title.face Font face for plot title (default: `bold`)
 #' @param title.color Color of plot title (default: `base_color`)
 #' @param subtitle.family Font family for plot subtitle (default: `base_family`)
@@ -79,14 +79,14 @@
 #'     ) +
 #'     theme_csiro()
 #' }
-theme_csiro <- function(base_family = "Arial", base_size = 12, base_color = "black", line_size = 0.2,
+theme_csiro <- function(base_family = "sans", base_size = 12, base_color = "black", line_size = 0.2,
                        baseline = FALSE, baseline.x = baseline, baseline.y = baseline, baseline.size = line_size * 3,
                        background.color = "white",
                        panel.border = TRUE, panel.border.size = line_size * 2,
                        legend.box = FALSE,
                        grid = FALSE, grid.minor = grid, grid.x = grid, grid.y = grid, grid.minor.x = grid.minor, grid.minor.y = grid.minor, grid.color = "black",
                        ticks = TRUE, ticks.x = ticks, ticks.y = ticks,
-                       title.family = "Arial", title.face = "bold", title.color = csiro_cols("midnight blue"),
+                       title.family = "sans", title.face = "bold", title.color = csiro_cols("midnight blue"),
                        subtitle.family = base_family, subtitle.face = "plain", subtitle.color = csiro_cols("midday blue"),
                        caption.family = base_family, caption.face = "plain", caption.color = "black",
                        axis.title.family = base_family, axis.title.face = "plain", axis.title.color = base_color,

@@ -8,7 +8,7 @@
 \alias{theme_csiro_data61}
 \title{Minimal Theme}
 \usage{
-theme_csiro(base_family = "Arial", base_size = 12,
+theme_csiro(base_family = "sans", base_size = 12,
   base_color = "black", line_size = 0.2, baseline = FALSE,
   baseline.x = baseline, baseline.y = baseline,
   baseline.size = line_size * 3, background.color = "white",
@@ -16,7 +16,7 @@ theme_csiro(base_family = "Arial", base_size = 12,
   legend.box = FALSE, grid = FALSE, grid.minor = grid,
   grid.x = grid, grid.y = grid, grid.minor.x = grid.minor,
   grid.minor.y = grid.minor, grid.color = "black", ticks = TRUE,
-  ticks.x = ticks, ticks.y = ticks, title.family = "Arial",
+  ticks.x = ticks, ticks.y = ticks, title.family = "sans",
   title.face = "bold", title.color = csiro_cols("midnight blue"),
   subtitle.family = base_family, subtitle.face = "plain",
   subtitle.color = csiro_cols("midday blue"),
@@ -31,7 +31,7 @@ theme_csiro(base_family = "Arial", base_size = 12,
   legend.text.face = axis.text.face,
   legend.text.color = axis.text.color, aspect.ratio = NULL)
 
-theme_csiro_dark(base_family = "Arial", base_size = 12,
+theme_csiro_dark(base_family = "sans", base_size = 12,
   base_color = "white", line_size = 0.2, baseline = FALSE,
   baseline.x = baseline, baseline.y = baseline,
   baseline.size = line_size * 3, background.color = "white",
@@ -39,7 +39,7 @@ theme_csiro_dark(base_family = "Arial", base_size = 12,
   legend.box = FALSE, grid = FALSE, grid.minor = grid,
   grid.x = grid, grid.y = grid, grid.minor.x = grid.minor,
   grid.minor.y = grid.minor, grid.color = "white", ticks = TRUE,
-  ticks.x = ticks, ticks.y = ticks, title.family = "Arial",
+  ticks.x = ticks, ticks.y = ticks, title.family = "sans",
   title.face = "bold", title.color = csiro_cols("midday blue"),
   subtitle.family = base_family, subtitle.face = "plain",
   subtitle.color = base_color, caption.family = base_family,
@@ -101,7 +101,7 @@ theme_csiro_data61(base_family = "Arial", base_size = 12,
   legend.text.color = axis.text.color, aspect.ratio = NULL)
 }
 \arguments{
-\item{base_family}{Base font family (default: \code{Arial})}
+\item{base_family}{Base font family (default: \code{sans})}
 
 \item{base_size}{Base font size (default: \code{12} pt)}
 
@@ -145,7 +145,7 @@ theme_csiro_data61(base_family = "Arial", base_size = 12,
 
 \item{ticks.y}{Whether or not to show Y axis tick marks (default: same as \code{ticks})}
 
-\item{title.family}{Font family for plot title (default: \code{"Arial"})}
+\item{title.family}{Font family for plot title (default: \code{"sans"})}
 
 \item{title.face}{Font face for plot title (default: \code{bold})}
 
@@ -194,7 +194,7 @@ A named list containing ggplot2 theme information
 }
 \description{
 \code{theme_csiro} is a minimal yet flexible \link{ggplot2} theme designed to put
-the data front and center. It uses the Arial font.
+the data front and center. It uses the sans font.
 }
 \section{Installing and Using Lato}{
 

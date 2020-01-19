@@ -32,7 +32,7 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
         subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
         caption = "Source: Motor Trend"
     ) +
-    theme_csiro_data61()
+    theme_csiro_dark()
 
 
 
@@ -74,6 +74,6 @@ p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
         subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
         caption = "Source: Motor Trend"
     ) +
-    theme_csiro("CorpidOffice")
+    theme_csiro()
 add_logo(p, logo='csiro')
 ```
