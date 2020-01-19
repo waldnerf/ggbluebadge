@@ -1,6 +1,8 @@
 ---
 title: "Diving into ggbluebadge"
-output:
+author: "Francois Waldner"
+date: "`r Sys.Date()`"
+output: 
   md_document:
     variant: markdown_github
 ---
@@ -13,8 +15,10 @@ output:
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "/figures/V-"
+  fig.path = "figures/V-",
+  clean = FALSE
 )
+knitr::opts_chunk$set(echo = TRUE, fig.width=8, fig.height=5)
 ```
 
 ```{r include = TRUE}
