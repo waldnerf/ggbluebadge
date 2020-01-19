@@ -42,28 +42,28 @@ The colour palette used in ggbluebadge matches the new visual identity of the CS
 From this list, I chose just a few that I thought worked well together for colour and fill scales: main, blues, greys, primary, secondary, and data61.
 
 
-``` r
+``` {r main}
 ggbluebadge::show_my_palette("main")
 ```
 
 
-``` r
-ggbluebadge::show_my_palette("blues")
-```
+#``` {r blues}
+#ggbluebadge::show_my_palette("blues")
+#```
 
-``` r
+``` {r greys}
 ggbluebadge::show_my_palette("greys")
 ```
 
-``` r
+``` {r primary}
 ggbluebadge::show_my_palette("primary")
 ```
 
-``` r
+``` {r secondary}
 ggbluebadge::show_my_palette("secondary")
 ```
 
-``` r
+``` {r data61}
 ggbluebadge::show_my_palette("data61")
 ```
 

@@ -34,25 +34,33 @@ data61.
 ggbluebadge::show_my_palette("main")
 ```
 
-``` r
-ggbluebadge::show_my_palette("blues")
-```
+<img src="man/figures/README-main-1.png" width="100%" />
+
+\#`{r blues} #ggbluebadge::show_my_palette("blues") #`
 
 ``` r
 ggbluebadge::show_my_palette("greys")
 ```
 
+<img src="man/figures/README-greys-1.png" width="100%" />
+
 ``` r
 ggbluebadge::show_my_palette("primary")
 ```
+
+<img src="man/figures/README-primary-1.png" width="100%" />
 
 ``` r
 ggbluebadge::show_my_palette("secondary")
 ```
 
+<img src="man/figures/README-secondary-1.png" width="100%" />
+
 ``` r
 ggbluebadge::show_my_palette("data61")
 ```
+
+<img src="man/figures/README-data61-1.png" width="100%" />
 
 Setup theme and scales
 ----------------------
