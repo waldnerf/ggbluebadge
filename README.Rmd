@@ -59,24 +59,24 @@ From this list, I chose just a few that I thought worked well together for colou
 
 
 
-``` {r main, fig.height = 3, fig.width = 3}
+``` {r main, fig.height = 3.5, fig.width = 3.5}
 ggbluebadge::show_my_palette("main")
 ```
 
 
-``` {r greys, fig.height = 3, fig.width = 3}
+``` {r greys, fig.height = 3.5, fig.width = 3.5}
 ggbluebadge::show_my_palette("greys")
 ```
 
-``` {r primary, fig.height = 3, fig.width = 3}
+``` {r primary, fig.height = 3.5, fig.width = 3.5}
 ggbluebadge::show_my_palette("primary")
 ```
 
-``` {r secondary, fig.height = 3, fig.width = 3}
+``` {r secondary, fig.height = 3.5, fig.width = 3.5}
 ggbluebadge::show_my_palette("secondary")
 ```
 
-``` {r data61, fig.height = 3, fig.width = 3}
+``` {r data61, fig.height = 3.5, fig.width = 3.5}
 ggbluebadge::show_my_palette("data61")
 ```
 
