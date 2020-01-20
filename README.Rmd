@@ -92,13 +92,15 @@ There are four variants of the theme-generating function theme_csiro():
 
 
 
-1. theme_csiro() sets the plot theme to be representative of the paper and styling of the watercolors and includes a paper-colored background,
+1. theme_csiro() sets the plot theme,
 
-2. theme_csiro_dark() has the same styling, just with a transparent (or white) background,
+2. theme_csiro_dark() has the same styling, just with a midnight blue background,
 
-3. theme_data61() has the paper-colored background and defaults to a fancy handwritten font (Homemade Apple).
+3. theme_data61() is a custom theme to fit the Data61 visual identity, 
 
-4. theme_data61_dark() has the paper-colored background and defaults to a fancy handwritten font (Homemade Apple).
+4. theme_data61_dark() has a black background.
+
+5. theme_pub() is sober theme for publications.
 
 
 

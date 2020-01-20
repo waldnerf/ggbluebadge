@@ -82,15 +82,13 @@ Setup theme and scales
 
 There are four variants of the theme-generating function theme\_csiro():
 
-1.  theme\_csiro() sets the plot theme to be representative of the paper
-    and styling of the watercolors and includes a paper-colored
+1.  theme\_csiro() sets the plot theme,
+
+2.  theme\_csiro\_dark() has the same styling, just with a midnight blue
     background,
 
-2.  theme\_csiro\_dark() has the same styling, just with a transparent
-    (or white) background,
+3.  theme\_data61() is a custom theme to fit the Data61 visual identity,
 
-3.  theme\_data61() has the paper-colored background and defaults to a
-    fancy handwritten font (Homemade Apple).
+4.  theme\_data61\_dark() has a black background.
 
-4.  theme\_data61\_dark() has the paper-colored background and defaults
-    to a fancy handwritten font (Homemade Apple).
+5.  theme\_pub() is sober theme for publications.

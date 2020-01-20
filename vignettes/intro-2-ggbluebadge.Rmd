@@ -83,7 +83,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = MyLegend)) +
         title = "My title",
         subtitle = "My subtitle",
         caption = "Source: my source"
-    )
+    )+
   theme_pub()
 
 
