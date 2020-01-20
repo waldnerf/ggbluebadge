@@ -1,7 +1,7 @@
 #' \code{theme_csiro_data61} is a dark version.
 #' @rdname theme_csiro
 #' @export
-theme_csiro_data61 <- function(base_family = "sans", base_size = 12, base_color = "white", line_size = 0.2,
+theme_data61 <- function(base_family = "sans", base_size = 12, base_color = "white", line_size = 0.2,
                             baseline = FALSE, baseline.x = baseline, baseline.y = baseline, baseline.size = line_size * 3,
                             background.color = "white",
                             panel.border = TRUE, panel.border.size = line_size * 2,
