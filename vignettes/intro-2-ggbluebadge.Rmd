@@ -27,7 +27,10 @@ library(magick)
 library(grid)
 library(ggbluebadge)
 
-ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+mtcars$mylegend <- as.factor(mtcars$cyl)
+iris$MyLegend <- iris$Sepal.Length
+
+ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
@@ -40,7 +43,7 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     theme_csiro()
 
 
-ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+ggplot(mtcars, aes(wt, mpg, color =mylegend )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
@@ -54,7 +57,7 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
 
 
 
-ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
@@ -69,11 +72,18 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
   add_floating_y(range(mtcars$mpg))
 
 
-ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = MyLegend)) +
   geom_point(size = 4, alpha = .6) +
   scale_color_gradient2(low = csiro_cols("midday blue"),
                         mid = csiro_cols("gold"),
                         high = csiro_cols("mint"),midpoint=6) +
+  labs(
+        x = "X-axis (units)",
+        y = "Y-axis (units)",
+        title = "My title",
+        subtitle = "My subtitle",
+        caption = "Source: my source"
+    )
   theme_pub()
 
 
