@@ -134,8 +134,7 @@ show_csiro_colours <- function(){
   my_dataframe$names <- factor( as.character(my_dataframe$names), levels=desired_order )
   # Re-order the data.frame
   my_dataframe <- my_dataframe[order(my_dataframe$names),]
-  my_dataframe %>%
-    ggplot2::ggplot(aes(x=names,y=size, fill=colours))+
+  ggplot2::ggplot(data=my_dataframe, aes(x=names,y=size, fill=colours))+
     ggplot2::geom_tile(colour="white") +
     ggplot2::scale_fill_identity() +
     ggplot2::scale_y_discrete(expand = c(0, 0)) +

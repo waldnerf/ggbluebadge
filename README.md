@@ -19,6 +19,9 @@ ggbluebadge lives on GitHub for now, so you need to use
 install.packages("devtools")
 
 devtools::install_github("waldnerf/ggbluebadge)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
 ```
 
 Color Palette
@@ -29,9 +32,17 @@ Color Palette
 The colour palette used in ggbluebadge matches the new visual identity
 of the CSIRO.
 
-<img src="man/figures/ggbluebadge_intro.png" align="center" width="640" />
+<img src="man/figures/ggbluebadge_intro.png" align="center" width="840" />
 
 ### Overview of the colour palettes
+
+Official colours can be displayed as follows:
+
+``` r
+ggbluebadge::show_csiro_colours()
+```
+
+![](figures/README-show-all-1.png)
 
 From this list, I chose just a few that I thought worked well together
 for colour and fill scales: main, greys, primary, secondary, and data61.
@@ -69,8 +80,7 @@ ggbluebadge::show_my_palette("data61")
 Setup theme and scales
 ----------------------
 
-There are four variants of the theme-generating function
-theme\_ggbluebadge():
+There are four variants of the theme-generating function theme\_csiro():
 
 1.  theme\_csiro() sets the plot theme to be representative of the paper
     and styling of the watercolors and includes a paper-colored

@@ -33,6 +33,9 @@ ggbluebadge lives on GitHub for now, so you need to use [devtools](https://cran.
 install.packages("devtools")
 
 devtools::install_github("waldnerf/ggbluebadge)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
 ```
 
 ## Color Palette
@@ -43,19 +46,22 @@ The colour palette used in ggbluebadge matches the new visual identity of the CS
 
 
 
-<img src="man/figures/ggbluebadge_intro.png" align="center" width="640" />
+<img src="man/figures/ggbluebadge_intro.png" align="center" width="840" />
 
 
 
 
 ### Overview of the colour palettes
 
+Official colours can be displayed as follows:
 
+``` {r show-all, fig.height = 2.5, fig.width = 3.5}
+ggbluebadge::show_csiro_colours()
+```
 
 
 
 From this list, I chose just a few that I thought worked well together for colour and fill scales: main,  greys, primary, secondary, and data61.
-
 
 
 
@@ -82,7 +88,7 @@ ggbluebadge::show_my_palette("data61")
 
 
 ## Setup theme and scales
-There are four variants of the theme-generating function theme_ggbluebadge():
+There are four variants of the theme-generating function theme_csiro():
 
 
 

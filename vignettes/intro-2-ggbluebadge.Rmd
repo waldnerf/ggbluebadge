@@ -31,11 +31,11 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
-        x = "Weight (tons)",
-        y = "Fuel Efficiency (mpg)",
-        title = "Just Buy a Convertible",
-        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
-        caption = "Source: Motor Trend"
+        x = "X-axis (units)",
+        y = "Y-axis (units)",
+        title = "My title",
+        subtitle = "My subtitle",
+        caption = "Source: my source"
     ) +
     theme_csiro_dark()
 
@@ -45,11 +45,11 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
-        x = "Weight (tons)",
-        y = "Fuel Efficiency (mpg)",
-        title = "Just Buy a Convertible",
-        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
-        caption = "Source: Motor Trend"
+        x = "X-axis (units)",
+        y = "Y-axis (units)",
+        title = "My title",
+        subtitle = "My subtitle",
+        caption = "Source: my source"
     ) +
   theme_floating_axes() +
   add_floating_x(range(mtcars$wt)) + 
@@ -73,11 +73,11 @@ p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     geom_point() +
     scale_color_csiro(palette="main") +
     labs(
-        x = "Weight (tons)",
-        y = "Fuel Efficiency (mpg)",
-        title = "Just Buy a Convertible",
-        subtitle = "Lighter cars are more efficient. Shave off some weight by\nditching the roof, and drive your savings to the bank!",
-        caption = "Source: Motor Trend"
+        x = "X-axis (units)",
+        y = "Y-axis (units)",
+        title = "My title",
+        subtitle = "My subtitle",
+        caption = "Source: my source"
     ) +
     theme_csiro()
 add_logo(p, logo='csiro')

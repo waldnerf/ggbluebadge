@@ -79,14 +79,14 @@
 #'     ) +
 #'     theme_csiro()
 #' }
-theme_pub <- function(base_family = "Calibri", base_size = 12, base_color = "black", line_size = 0.2,
+theme_pub <- function(base_family = "sans", base_size = 12, base_color = "black", line_size = 0.2,
                        baseline = TRUE, baseline.x = baseline, baseline.y = baseline, baseline.size = line_size * 3,
                        background.color = "white",
                        panel.border = FALSE, panel.border.size = line_size * 2,
                        legend.box = FALSE,
                        grid = FALSE, grid.minor = grid, grid.x = grid, grid.y = grid, grid.minor.x = grid.minor, grid.minor.y = grid.minor, grid.color = "black",
                        ticks = TRUE, ticks.x = ticks, ticks.y = ticks,
-                       title.family = "Calibri", title.face = "bold", title.color = 'black',
+                       title.family = "sans", title.face = "bold", title.color = 'black',
                        subtitle.family = base_family, subtitle.face = "plain", subtitle.color = "black",
                        caption.family = base_family, caption.face = "italic", caption.color = "black",
                        axis.title.family = base_family, axis.title.face = "plain", axis.title.color = base_color,
