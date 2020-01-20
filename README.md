@@ -4,8 +4,8 @@ ggbluebadge <img src="man/figures/logo.png" align="right" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of ggbluebadge is to faciliate the use of the visual identity
-of the [CSIRO](www.csiro.au) for R programmers.
+The goal of ggbluebadge is to help R programmers produce figures that
+are consistent with [CSIRO](www.csiro.au)’s visual identity.
 
 Installation
 ------------
