@@ -53,7 +53,7 @@ csiro_palettes <- list(
 
   primary = csiro_cols("blueberry",
                        "plum",
-                       "ocean blue",
+                       "ocean",
                        "teal",
                        "mint"),
 
