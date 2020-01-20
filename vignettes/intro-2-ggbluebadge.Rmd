@@ -37,6 +37,19 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
         subtitle = "My subtitle",
         caption = "Source: my source"
     ) +
+    theme_csiro()
+
+
+ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
+    geom_point() +
+    scale_color_csiro(palette="main") +
+    labs(
+        x = "X-axis (units)",
+        y = "Y-axis (units)",
+        title = "My title",
+        subtitle = "My subtitle",
+        caption = "Source: my source"
+    ) +
     theme_csiro_dark()
 
 
@@ -58,8 +71,10 @@ ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
 
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
   geom_point(size = 4, alpha = .6) +
-  scale_color_gradient2(low = csiro_cols("midday blue"), mid = csiro_cols("gold"), high = csiro_cols("mint"),midpoint=6) +
-  theme_csiro()
+  scale_color_gradient2(low = csiro_cols("midday blue"),
+                        mid = csiro_cols("gold"),
+                        high = csiro_cols("mint"),midpoint=6) +
+  theme_pub()
 
 
 ```
