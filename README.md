@@ -40,31 +40,31 @@ for colour and fill scales: main, greys, primary, secondary, and data61.
 ggbluebadge::show_my_palette("main")
 ```
 
-![](man/figures/README-main-1.png)
+![](figures/README-main-1.png)
 
 ``` r
 ggbluebadge::show_my_palette("greys")
 ```
 
-![](man/figures/README-greys-1.png)
+![](figures/README-greys-1.png)
 
 ``` r
 ggbluebadge::show_my_palette("primary")
 ```
 
-![](man/figures/README-primary-1.png)
+![](figures/README-primary-1.png)
 
 ``` r
 ggbluebadge::show_my_palette("secondary")
 ```
 
-![](man/figures/README-secondary-1.png)
+![](figures/README-secondary-1.png)
 
 ``` r
 ggbluebadge::show_my_palette("data61")
 ```
 
-![](man/figures/README-data61-1.png)
+![](figures/README-data61-1.png)
 
 Setup theme and scales
 ----------------------
