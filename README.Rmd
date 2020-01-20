@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  fig.dpi = 300
 )
 ```
 
@@ -37,21 +37,18 @@ devtools::install_github("waldnerf/ggbluebadge)
 
 ## Color Palette
 
+
+### The Visual Identity
 The colour palette used in ggbluebadge matches the new visual identity of the CSIRO.
 
 
 
-
-
-<br/><br/>
-
-
-<img src="man/figures/ggbluebadge_intro.png" align="right" width="640" />
-
-<br/><br/><br/><br/><br/><br/>
+<img src="man/figures/ggbluebadge_intro.png" align="center" width="640" />
 
 
 
+
+### Overview of the colour palettes
 
 
 
@@ -62,24 +59,24 @@ From this list, I chose just a few that I thought worked well together for colou
 
 
 
-``` {r main, fig.height = 3, fig.width = 4}
+``` {r main, fig.height = 2, fig.width = 2}
 ggbluebadge::show_my_palette("main")
 ```
 
 
-``` {r greys, fig.height = 3, fig.width = 4}
+``` {r greys, fig.height = 2, fig.width = 2}
 ggbluebadge::show_my_palette("greys")
 ```
 
-``` {r primary, fig.height = 3, fig.width = 4}
+``` {r primary, fig.height = 2, fig.width = 2}
 ggbluebadge::show_my_palette("primary")
 ```
 
-``` {r secondary, fig.height = 3, fig.width = 4}
+``` {r secondary, fig.height = 2, fig.width = 2}
 ggbluebadge::show_my_palette("secondary")
 ```
 
-``` {r data61, fig.height = 3, fig.width = 4}
+``` {r data61, fig.height = 2, fig.width = 2}
 ggbluebadge::show_my_palette("data61")
 ```
 
