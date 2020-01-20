@@ -32,7 +32,7 @@ ggbluebadge lives on GitHub for now, so you need to use [devtools](https://cran.
 # install devtoos if you don't have it
 install.packages("devtools")
 
-devtools::install_github("waldnerf/ggbluebadge)
+devtools::install_github("waldnerf/ggbluebadge")
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
@@ -101,6 +101,5 @@ There are four variants of the theme-generating function theme_csiro():
 4. theme_data61_dark() has a black background.
 
 5. theme_pub() is sober theme for publications.
-
 
 
