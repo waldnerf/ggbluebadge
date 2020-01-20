@@ -18,7 +18,7 @@ ggbluebadge lives on GitHub for now, so you need to use
 # install devtoos if you don't have it
 install.packages("devtools")
 
-devtools::install_github("waldnerf/ggbluebadge)
+devtools::install_github("waldnerf/ggbluebadge")
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
