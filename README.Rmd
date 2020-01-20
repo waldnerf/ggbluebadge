@@ -39,32 +39,36 @@ devtools::install_github("waldnerf/ggbluebadge)
 
 The colour palette used in ggbluebadge matches the new visual identity of the CSIRO.
 
+<br/><br/>
 
-<img src="man/figures/ggbluebadge_intro.png" align="right" width="460" />
+
+<img src="man/figures/ggbluebadge_intro.png" align="right" width="640" />
+
+<br/><br/>
 
 From this list, I chose just a few that I thought worked well together for colour and fill scales: main,  greys, primary, secondary, and data61.
 
 
 
 
-``` {r main}
+``` {r main, fig.height = 3, fig.width = 4}
 ggbluebadge::show_my_palette("main")
 ```
 
 
-``` {r greys}
+``` {r greys, fig.height = 3, fig.width = 4}
 ggbluebadge::show_my_palette("greys")
 ```
 
-``` {r primary}
+``` {r primary, fig.height = 3, fig.width = 4}
 ggbluebadge::show_my_palette("primary")
 ```
 
-``` {r secondary}
+``` {r secondary, fig.height = 3, fig.width = 4}
 ggbluebadge::show_my_palette("secondary")
 ```
 
-``` {r data61}
+``` {r data61, fig.height = 3, fig.width = 4}
 ggbluebadge::show_my_palette("data61")
 ```
 
