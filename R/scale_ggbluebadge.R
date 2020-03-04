@@ -52,18 +52,20 @@ csiro_palettes <- list(
                        "mist"),
 
   primary = csiro_cols("blueberry",
+                       "mint",
                        "plum",
-                       "ocean",
                        "teal",
-                       "mint"),
+                       "ocean"
+                       ),
 
   secondary = csiro_cols("fuschia",
-                         "orange",
-                         "gold",
-                         "lavender",
                          "light teal",
+                         "orange",
                          "forest",
-                         "light mint"),
+                         "gold",
+                         "light mint",
+                         "lavender"
+                         ),
 
   data61 = csiro_cols("mint",
                       "light mint",
