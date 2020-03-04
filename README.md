@@ -5,7 +5,8 @@ ggbluebadge <img src="man/figures/logo.png" align="right" width="120" />
 <!-- badges: start -->
 <!-- badges: end -->
 The goal of ggbluebadge is to help R programmers produce figures that
-are consistent with [CSIRO](www.csiro.au)’s visual identity.
+are consistent with [CSIRO](www.csiro.au)’s visual identity (the codes
+within the colours are their hexadecimal codes).
 
 Installation
 ------------
@@ -30,7 +31,7 @@ Color Palette
 ### The Visual Identity
 
 The colour palette used in ggbluebadge matches the new visual identity
-of the CSIRO.
+of the CSIRO
 
 <img src="man/figures/ggbluebadge_intro.png" align="center" width="840" />
 
@@ -82,3 +83,6 @@ There are four variants of the theme-generating function theme\_csiro():
     background,
 
 3.  theme\_pub() is sober theme for publications.
+
+Of course, you can mix and match the themes and the colour palettes… or
+even create your own (see the vignette for some examples).
