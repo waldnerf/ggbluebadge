@@ -9,6 +9,8 @@ library(ggbluebadge)
 mtcars$mylegend <- as.factor(mtcars$cyl)
 iris$MyLegend <- iris$Sepal.Length
 
+
+# White background - main palette
 ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
     geom_point(size=2) +
     scale_color_csiro(palette="main") +
@@ -26,7 +28,7 @@ ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
 
 ``` r
 
-
+# Dark background - main palette
 ggplot(mtcars, aes(wt, mpg, color =mylegend )) +
     geom_point(size=2) +
     scale_color_csiro(palette="main") +
@@ -44,7 +46,7 @@ ggplot(mtcars, aes(wt, mpg, color =mylegend )) +
 
 ``` r
 
-
+# Mix and Match: Dark background and User defined palette
 ggplot(mtcars, aes(wt, mpg, color =mylegend )) +
     geom_point(size=2) +
     scale_color_manual(values= unname(c(csiro_cols("fuschia"), csiro_cols("gold"), csiro_cols("forest")))) +
@@ -62,9 +64,9 @@ ggplot(mtcars, aes(wt, mpg, color =mylegend )) +
 
 ``` r
 
-
+# Pulication-ready figure
 ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
-    geom_point() +
+    geom_point(size=2) +
     scale_color_csiro(palette="main") +
     labs(
         x = "X-axis (units)",
@@ -82,7 +84,7 @@ ggplot(mtcars, aes(wt, mpg, color = mylegend )) +
 
 ``` r
 
-
+# User defined gradient
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = MyLegend)) +
   geom_point(size = 4, alpha = .6) +
   scale_color_gradient2(low = csiro_cols("midday blue"),
