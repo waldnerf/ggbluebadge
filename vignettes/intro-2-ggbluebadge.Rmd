@@ -106,7 +106,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = MyLegend)) +
 You can add the CSIRO logo to your figures the `add_logo` function.
 
 
-```{r include = TRUE, results = "hide"}
+```{r, include = TRUE, results = "hide"}
 
 p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     geom_point() +
