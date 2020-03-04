@@ -5,8 +5,7 @@ ggbluebadge <img src="man/figures/logo.png" align="right" width="120" />
 <!-- badges: start -->
 <!-- badges: end -->
 The goal of ggbluebadge is to help R programmers produce figures that
-are consistent with [CSIRO](www.csiro.au)’s visual identity (the codes
-within the colours are their hexadecimal codes).
+are consistent with [CSIRO](www.csiro.au)’s visual identity.
 
 Installation
 ------------
@@ -31,7 +30,7 @@ Color Palette
 ### The Visual Identity
 
 The colour palette used in ggbluebadge matches the new visual identity
-of the CSIRO
+of the CSIRO (the codes within the colours are their hexadecimal codes).
 
 <img src="man/figures/ggbluebadge_intro.png" align="center" width="840" />
 

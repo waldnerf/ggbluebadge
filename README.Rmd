@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ggbluebadge is to help R programmers produce figures that are consistent with [CSIRO](www.csiro.au)'s visual identity (the codes within the colours are their hexadecimal codes).
+The goal of ggbluebadge is to help R programmers produce figures that are consistent with [CSIRO](www.csiro.au)'s visual identity.
 
 ## Installation
 
@@ -42,7 +42,7 @@ library(tidyverse)
 
 
 ### The Visual Identity
-The colour palette used in ggbluebadge matches the new visual identity of the CSIRO
+The colour palette used in ggbluebadge matches the new visual identity of the CSIRO (the codes within the colours are their hexadecimal codes).
 
 
 

@@ -2,9 +2,6 @@
 ``` r
 library(ggplot2)
 library(magick)
-#> Linking to ImageMagick 6.9.9.14
-#> Enabled features: cairo, freetype, fftw, ghostscript, lcms, pango, rsvg, webp
-#> Disabled features: fontconfig, x11
 library(grid)
 library(ggbluebadge)
 
@@ -104,7 +101,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = MyLegend)) +
 
 ![](figures/V-unnamed-chunk-2-5.png)
 
-Now, let’s add the CSIRO logo to the figure.
+You can add the CSIRO logo to your figures the `add_logo` function.
 
 ``` r
 
@@ -121,5 +118,3 @@ p <- ggplot(mtcars, aes(wt, mpg, color = as.factor(cyl) )) +
     theme_csiro()
 add_logo(p, logo='csiro')
 ```
-
-![](figures/V-unnamed-chunk-3-1.png)
