@@ -27,6 +27,7 @@ library(magick)
 library(grid)
 library(ggbluebadge)
 
+
 mtcars$mylegend <- as.factor(mtcars$cyl)
 iris$MyLegend <- iris$Sepal.Length
 

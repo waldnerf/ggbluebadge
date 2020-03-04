@@ -60,8 +60,6 @@ csiro_palettes <- list(
   secondary = csiro_cols("fuschia",
                          "orange",
                          "gold",
-                         "teal",
-                         "mint",
                          "lavender",
                          "light teal",
                          "forest",

@@ -82,9 +82,6 @@ ggbluebadge::show_my_palette("primary")
 ggbluebadge::show_my_palette("secondary")
 ```
 
-``` {r data61, fig.height = 3.5, fig.width = 3.5}
-ggbluebadge::show_my_palette("data61")
-```
 
 
 ## Setup theme and scales
@@ -96,10 +93,6 @@ There are four variants of the theme-generating function theme_csiro():
 
 2. theme_csiro_dark() has the same styling, just with a midnight blue background,
 
-3. theme_data61() is a custom theme to fit the Data61 visual identity, 
-
-4. theme_data61_dark() has a black background.
-
-5. theme_pub() is sober theme for publications.
+3. theme_pub() is sober theme for publications.
 
 
